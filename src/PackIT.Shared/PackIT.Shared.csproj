@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PackIT.Shared.Abstractions\PackIT.Shared.Abstractions.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.*"/>
+        <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.*"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.*" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.*" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.*" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.*" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.*" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.*" />
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.*" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.*" />
+      <PackageReference Include="Scrutor" Version="3.*" />
+    </ItemGroup>
+
+</Project>

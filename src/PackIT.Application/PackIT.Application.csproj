@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\PackIT.Domain\PackIT.Domain.csproj" />
+      <ProjectReference Include="..\PackIT.Shared\PackIT.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
