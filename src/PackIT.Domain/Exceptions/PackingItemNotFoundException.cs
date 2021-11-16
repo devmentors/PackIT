@@ -6,7 +6,7 @@ namespace PackIT.Domain.Exceptions
     {
         public string ItemName { get; }
 
-        public PackingItemNotFoundException(string itemName) : base($"Packing item 'itemName' was not found.")
+        public PackingItemNotFoundException(string itemName) : base($"Packing item '{itemName}' was not found.")
             => ItemName = itemName;
     }
 }
