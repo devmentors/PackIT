@@ -18,10 +18,9 @@ namespace PackIT.Shared.Abstractions.Domain
             {
                 Version++;
                 _versionIncremented = true;
-
-
-                _events.Add(@event);
             }
+            
+            _events.Add(@event);
         }
 
         public void ClearEvents() => _events.Clear();    
